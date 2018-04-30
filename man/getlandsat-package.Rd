@@ -2,13 +2,13 @@
 % Please edit documentation in R/getlandsat-package.R
 \docType{package}
 \name{getlandsat-package}
-\alias{getlandsat}
 \alias{getlandsat-package}
+\alias{getlandsat}
 \title{getlandsat - get Landsat 8 data from AWS public data sets}
 \description{
 \pkg{getlandsat} provides access to Landsat \url{https://landsat.usgs.gov} 8
 metadata and images hosted on AWS S3 at
-\url{https://aws.amazon.com/public-data-sets/landsat}. The package only
+\url{https://registry.opendata.aws/landsat-8/}. The package only
 fetches data. It does not attempt to aid users in downstream usage.
 }
 \examples{
@@ -33,4 +33,3 @@ if (requireNamespace("raster")) {
 }
 }
 \keyword{package}
-
